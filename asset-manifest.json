@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.579f40bb.css",
-    "main.js": "/static/js/main.aca23982.js",
-    "static/js/845.188cdfa6.chunk.js": "/static/js/845.188cdfa6.chunk.js",
-    "static/media/picture1.jpeg": "/static/media/picture1.231c1b9fade2e9b3a3cf.jpeg",
-    "index.html": "/index.html",
-    "main.579f40bb.css.map": "/static/css/main.579f40bb.css.map",
-    "main.aca23982.js.map": "/static/js/main.aca23982.js.map",
-    "845.188cdfa6.chunk.js.map": "/static/js/845.188cdfa6.chunk.js.map"
+    "main.css": "/fer-countdown/static/css/main.579f40bb.css",
+    "main.js": "/fer-countdown/static/js/main.7a03ff4a.js",
+    "static/js/845.188cdfa6.chunk.js": "/fer-countdown/static/js/845.188cdfa6.chunk.js",
+    "static/media/picture1.jpeg": "/fer-countdown/static/media/picture1.231c1b9fade2e9b3a3cf.jpeg",
+    "index.html": "/fer-countdown/index.html",
+    "main.579f40bb.css.map": "/fer-countdown/static/css/main.579f40bb.css.map",
+    "main.7a03ff4a.js.map": "/fer-countdown/static/js/main.7a03ff4a.js.map",
+    "845.188cdfa6.chunk.js.map": "/fer-countdown/static/js/845.188cdfa6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.579f40bb.css",
-    "static/js/main.aca23982.js"
+    "static/js/main.7a03ff4a.js"
   ]
 }
