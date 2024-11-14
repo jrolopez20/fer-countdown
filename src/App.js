@@ -12,7 +12,7 @@ function App() {
           <img src={picture1} alt="You and me together" />
         </div>
       </div>
-      <h1>Countdown to see you again!</h1>
+      <h1>¡Cuenta regresiva para verte de otra vez!</h1>
       <Countdown targetDate={targetDate} />
 
 
@@ -31,8 +31,9 @@ function App() {
               </defs>
             </svg>
             <div className="sticky-content">
-              <p>Never lose your faith in me.</p>
-              <div className='signature'>Javier 😉</div>
+              {/* <p>No sé tú, pero esta ansiedad por tenerte me está matando.</p> */}
+              <p>Algún día, la distancia morirá de celos al vernos juntos.</p>
+              <div className='signature'>tu Javi 😉</div>
             </div>
           </div>
         </div>
