@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/fer-countdown/static/css/main.579f40bb.css",
-    "main.js": "/fer-countdown/static/js/main.7a03ff4a.js",
+    "main.css": "/fer-countdown/static/css/main.fe063385.css",
+    "main.js": "/fer-countdown/static/js/main.6b20a79c.js",
     "static/js/845.188cdfa6.chunk.js": "/fer-countdown/static/js/845.188cdfa6.chunk.js",
+    "static/media/background.jpg": "/fer-countdown/static/media/background.ed5928ac28ea86ce8de0.jpg",
+    "static/media/background_border.png": "/fer-countdown/static/media/background_border.9d9859b72c605735e7b8.png",
     "static/media/picture1.jpeg": "/fer-countdown/static/media/picture1.231c1b9fade2e9b3a3cf.jpeg",
     "index.html": "/fer-countdown/index.html",
-    "main.579f40bb.css.map": "/fer-countdown/static/css/main.579f40bb.css.map",
-    "main.7a03ff4a.js.map": "/fer-countdown/static/js/main.7a03ff4a.js.map",
+    "main.fe063385.css.map": "/fer-countdown/static/css/main.fe063385.css.map",
+    "main.6b20a79c.js.map": "/fer-countdown/static/js/main.6b20a79c.js.map",
     "845.188cdfa6.chunk.js.map": "/fer-countdown/static/js/845.188cdfa6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.579f40bb.css",
-    "static/js/main.7a03ff4a.js"
+    "static/css/main.fe063385.css",
+    "static/js/main.6b20a79c.js"
   ]
 }
