@@ -1,16 +1,44 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
+import Countdown from './components/countdown';
+import picture1 from "./images/picture1.jpeg"
 
 function App() {
+  const targetDate = new Date('Jan 3, 2025').getTime();
+
   return (
-    <Router>
-        <Routes>
-          <Route path="/" exact element={<Home/>} />
-          <Route path="/about" element={<About/>} />
-        </Routes>
-    </Router>
+    <div className="App">
+      <div className="picture-container">
+        <div className="img-hanger">
+          <img src={picture1} alt="You and me together" />
+        </div>
+      </div>
+      <h1>Countdown to see you again!</h1>
+      <Countdown targetDate={targetDate} />
+
+
+      <div className="sticky-container">
+        <div className="sticky-outer">
+          <div className="sticky">
+            <svg width="0" height="0">
+              <defs>
+                <clipPath id="stickyClip" clipPathUnits="objectBoundingBox">
+                  <path
+                    d="M 0 0 Q 0 0.69, 0.03 0.96 0.03 0.96, 1 0.96 Q 0.96 0.69, 0.96 0 0.96 0, 0 0"
+                    strokeLinejoin="round"
+                    strokeLinecap="square"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+            <div className="sticky-content">
+              <p>Never lose your faith in me.</p>
+              <div className='signature'>Javier 😉</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
   );
 }
 

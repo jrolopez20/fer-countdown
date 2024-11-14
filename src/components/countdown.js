@@ -1,31 +1,31 @@
 import { useEffect, useState } from "react"
-import "./Countdown.css";
+import "./countdown.css";
 
 const getTimeLeft = (targetDate) => {
-    const now = new Date().getTime();
-    const distance = (targetDate - now) / 1000;
-    const days = Math.floor(distance / 60 / 60 / 24)
-    const hours = Math.floor(distance / 60 / 60 % 24)
-    const minutes = Math.floor(distance / 60 % 60)
-    const seconds = Math.floor(distance % 60)
+	const now = new Date().getTime();
+	const distance = (targetDate - now) / 1000;
+	const days = Math.floor(distance / 60 / 60 / 24)
+	const hours = Math.floor(distance / 60 / 60 % 24)
+	const minutes = Math.floor(distance / 60 % 60)
+	const seconds = Math.floor(distance % 60)
 
 	return { days, hours, minutes, seconds };
 };
 
 export default function Countdown({ targetDate }) {
-    const [timeLeft, setTimeLeft] = useState(() => getTimeLeft(targetDate));
+	const [timeLeft, setTimeLeft] = useState(() => getTimeLeft(targetDate));
 
-    useEffect(() => {
+	useEffect(() => {
 		const timer = setInterval(() => {
 			setTimeLeft(getTimeLeft(targetDate));
 		}, 1000);
 
-		return () => clearInterval(timer);		
+		return () => clearInterval(timer);
 	}, [targetDate]);
-  
-    return (
-        <div className="countdown">
-            <div className='content'>
+
+	return (
+		<div className="countdown">
+			<div className='content'>
 				{Object.entries(timeLeft).map((el) => {
 					const label = el[0];
 					const value = el[1].toString().padStart(2, '0');
@@ -39,6 +39,6 @@ export default function Countdown({ targetDate }) {
 					);
 				})}
 			</div>
-        </div>
-    )
+		</div>
+	)
 }
